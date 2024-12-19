@@ -12,8 +12,13 @@ Flatdango is a movie ticket booking web application that allows users to view a 
 
 - Dynamic Movie List:Fetches a list of movies from a JSON server and displays them in an interactive list.
 - Movie Navigation: Users can navigate through the list of movies using "Next Movie" and "Preceeding Movie" buttons. The buttons update the displayed movie's information without reloading the page.
-
 - Movie Deletion: The app allows for movie deletion from the list.
+
+## Usage
+-Select the from and to currencies using the dropdowns.
+-Enter the amount you wish to convert.
+-Click the Convert button to get the result.
+-To manage your conversion history, click on the History button to view, edit, or delete previous conversions.
 
 ## prerequisite 
 Before running the code, ensure you have the following:

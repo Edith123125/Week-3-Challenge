@@ -1,6 +1,4 @@
-
-
-/* general body*/
+/* GENERAL BODY*/
 
 
 *{
@@ -15,7 +13,8 @@
 }
 
 
-/* header*/
+
+/* THE HEADER SECTION*/
 
 .header{
     top: 0;
@@ -29,8 +28,6 @@
     z-index: 100;
     color: aliceblue;
 }
-
-
 
 .header_title{
     text-align: center;
@@ -50,9 +47,9 @@
     color: black;
     border: 2px solid transparent;
     border-radius: 8px;
-    font-size: 6px;
+    font-size: 16px;
     letter-spacing: 1px;
-    font-weight: 400;
+    font-weight: 600;
     transition: 0.3s ease;
 }
 .contact:hover{
@@ -75,13 +72,13 @@
     padding: 20px;
 }
 
-/* Style .form_title */
+/* .form_title */
 .menu_title {
     width: 100%;
     margin-bottom: 20px; 
 }
 
-/* title text */
+/*  title text */
 .menu_title h2 {
     font-size: 24px;
     font-weight: bold;
@@ -92,9 +89,9 @@
 
 
 .btn_menu{
-    flex: 0 0 49%; 
+    flex: 0 0 48%; 
     background: rgba(18, 95, 196, 0.8);
-    color: grey;
+    color: white;
     border: none;
     padding: 10px;
     border-radius: 5px;
@@ -110,26 +107,21 @@
 
 /* Initialize counter for the container */
 #container_menu {
-    counter-reset: movieCounter; /* Start numbering at 0 */
+    counter-reset: movieCounter; 
 }
 
-/* Apply numbering to each <k> tag */
-#container_menu k {
+/* Apply numbering to each tag */
+#container_menu p {
     counter-increment: movieCounter; 
     margin-bottom: 10px; 
 }
 
-/* Add the numbering before the content */
-#container_menu p::before {
-    content: counter(movieCounter) ". "; /* Display the number before the title */
-    font-weight: bold; 
-}
 
-/* delete button layout */
+/* delete button  */
 .container_display ul {
     display: flex;
     flex-direction: column;
-    gap: 10px; /* Ensures there is space between each movie */
+    gap: 10px; 
     padding: 0;
 }
 .movie_list{
@@ -145,14 +137,14 @@
 
 
 .delete {
-    flex: 0 0 120px; /* Ensures buttons take up a fixed width */
+    flex: 0 0 120px; 
     background: rgba(18, 95, 196, 0.8);
     color: white;
     border: none;
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
-    text-align: center; /* Centers text inside the button */
+    text-align: center; 
     transition: background 0.3s;
     display: flex;
     justify-content: center;
@@ -165,6 +157,7 @@
     border: 2px solid orangered;
 }
 
+/* Add some spacing between movie name and the button */
 .movie_list {
     display: flex;
     justify-content: space-between;
@@ -176,7 +169,7 @@
 
 
 
-/* form and display section*/
+/* THE DISPLAY AND THE FORM SECTION*/
 
 
 
@@ -341,7 +334,11 @@
     color: white;
 }
 
-/* Form */
+
+
+
+
+/* Form styles*/
 
 #movie-form {
     align-items: center;
@@ -370,26 +367,7 @@
 }
 
 
-
-/* Responsive Design 
-@media (max-width: 900px) {
-    .display {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .container_display,
-    .container_form {
-        width: 100%;
-        max-width: 500px;
-    }
-}
-
-*/
-
-
-/* FOOTER*/
-
+/* THE FOOTER SECTION*/
 
 
 .footer .copyright{
